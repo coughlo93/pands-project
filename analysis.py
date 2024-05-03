@@ -137,3 +137,25 @@ ax.set_ylim(-1, 4)
 
 # Measure the correlation
 np.corrcoef(plen, pwidth) 
+
+# Histograms
+
+# Variable Plots
+plen = df['petal_length']
+pwidth = df['petal_width'].to_numpy()
+
+# Histogram of Petal Length
+plt.figure(figsize=(8, 6))
+plt.hist(plen, bins=20, color='skyblue', edgecolor='black')
+plt.xlabel('Petal Length (cm)')
+plt.ylabel('Frequency')
+plt.title('Histogram of Petal Length')
+plt.show()
+
+# Histogram of Petal Width
+plt.figure(figsize=(8, 6))
+plt.hist(pwidth, bins=20, color='skyblue', edgecolor='black')
+plt.xlabel('Petal Width (cm)')
+plt.ylabel('Frequency')
+plt.title('Histogram of Petal Width')
+plt.show()
