@@ -2,7 +2,7 @@
 
 # References
 
-[uci.edu Iris Dataset] (https://archive.ics.uci.edu/dataset/53/iris)
+[uci.edu Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris)
 
 [Seaborn Iris Dataset](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)
 
