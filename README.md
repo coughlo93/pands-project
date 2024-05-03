@@ -29,7 +29,7 @@ The Iris dataset is commonly used for:
 
 **Availability:**
 
-The Iris dataset is readily available from various online [sources]((https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)) in different formats.
+The Iris dataset is readily available from various online [sources](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv) in different formats.
 
 **In Summary:**
 
