@@ -7,7 +7,8 @@ import pandas as pd
 # Plotting
 import matplotlib.pyplot as plt
 # Numerical arrays.
-import numpy as np
+import numpy as np # type: ignore
+
 
 # Load Data
 # By loading the data, this allows me to work with datasets directly within the python environment. 
@@ -136,4 +137,3 @@ ax.set_ylim(-1, 4)
 
 # Measure the correlation
 np.corrcoef(plen, pwidth) 
-
