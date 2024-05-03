@@ -10,8 +10,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load Data
+# By loading the data, this allows me to work with datasets directly within the python environment. 
+# This is essential in data analysis as it ensures I will be able to manipulate, analyse, visualise and process the data using the extensive libraries available in python such as Pandas, NumPy etc.
+# It turns writing code and working with data into a seamless transition.
+
 # Fetch Data From URL
 df = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv')
+
+# Inspect the data.
+# Inspecting data in Python allows you to gain insights into its structure, content, and quality. 
+# This process is crucial for data preprocessing, as it helps identify potential issues or anomalies that may need to be addressed before further analysis or modeling
 
 # Inspect the data.
 df 
