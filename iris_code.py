@@ -25,6 +25,9 @@ df = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/
 df 
 
 # Inspect the Types
+# Inspecting types in Python is a valuable tool for understanding, debugging, and ensuring the correctness of your code.
+# It helps you write more robust and maintainable programs, especially in large and complex codebases
+# Inspect the Types
 df.dtypes 
 
 # Summary of the Data
