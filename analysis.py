@@ -53,6 +53,8 @@ pwidth = df['petal_width'].to_numpy()
 # Show
 pwidth
 
+## Scatter Plots
+
 # Create a Simple Plot
 plt.plot(plen, pwidth, 'x')
 # Axis labels
@@ -137,6 +139,8 @@ ax.set_ylim(-1, 4)
 
 # Measure the correlation
 np.corrcoef(plen, pwidth) 
+
+## Histograms
 
 # Histograms
 
