@@ -35,6 +35,17 @@ The Iris dataset is readily available from various online [sources](https://gith
 
 The Iris dataset provides a valuable resource for learning and practicing machine learning classification tasks. Its compact size and clear structure make it ideal for beginners to understand the fundamentals of classification algorithms and data analysis in Python.
 
+**Packages Used:**
+
+I used the following packages to aid my data analysis with this project.
+
+**Pandas** -  a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language.
+
+**Numpy** - NumPy empowers you to perform complex numerical computations in Python with speed and ease
+
+**Matplotlib** - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
+
 # References
 
 - [uci.edu Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris)
