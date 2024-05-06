@@ -35,14 +35,25 @@ The Iris dataset is readily available from various online [sources](https://gith
 
 The Iris dataset provides a valuable resource for learning and practicing machine learning classification tasks. Its compact size and clear structure make it ideal for beginners to understand the fundamentals of classification algorithms and data analysis in Python.
 
+- Firstly I imported the the following libraries to aid my data analysis with this project. Pandas, NumPy & Matplotlib.
+
+- I then loaded the data from a CSV file from the Seaborn repository on GitHub.
+
+- Following on from this I then loaded & inspected the data & inspected the types of data to help identify potential issues or anomalies that may need to be addressed before further analysis.
+
+- To analyse some of this data, I needed to get some variable plots, for this I chose petal length & petal width and I created plots on a scatter plot using NumPy & Matplotlib.
+
+- I then needed to get the best fit line which can be got from the equation which I wass able to find from [statology.org](https://www.statology.org/line-of-best-fit-python/). I then plotted this line onto the scatter plot.
+
+- I was then able to measure the corrolation using [numpy.corrcoef](https://numpy.org/doc/stable/reference/generated/numpy.corrcoef.html)
+
+- Finally I decided to plot some histograms to analyse the petal lengths & petal widths in the dataset
+
 **Packages Used:**
 
-I used the following packages to aid my data analysis with this project.
+**Pandas** -  a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
-**Pandas** -  a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
-built on top of the Python programming language.
-
-**Numpy** - NumPy empowers you to perform complex numerical computations in Python with speed and ease
+**NumPy** - NumPy empowers you to perform complex numerical computations in Python with speed and ease.
 
 **Matplotlib** - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
 
@@ -63,3 +74,7 @@ built on top of the Python programming language.
 - [Python Cheat Sheet](https://acrobat.adobe.com/id/urn:aaid:sc:EU:f0f818bf-f5f5-469d-a9c9-9ef5370367e9?comment_id=29df74be-c9cb-4937-acb5-2c65a445a664)
 
 - [Image source](http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html#correlations)
+
+- [statology.org](https://www.statology.org/line-of-best-fit-python/)
+
+- [numpy.corrcoef](https://numpy.org/doc/stable/reference/generated/numpy.corrcoef.html)
