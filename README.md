@@ -47,6 +47,8 @@ The Iris dataset provides a valuable resource for learning and practicing machin
  
 - [Matplotlib](https://matplotlib.org/)
 
+- [W3 Schools](https://www.w3schools.com/python/)
+
 - [Python Cheat Sheet](https://acrobat.adobe.com/id/urn:aaid:sc:EU:f0f818bf-f5f5-469d-a9c9-9ef5370367e9?comment_id=29df74be-c9cb-4937-acb5-2c65a445a664)
 
 - [Image source](http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html#correlations)
