@@ -78,3 +78,6 @@ The Iris dataset provides a valuable resource for learning and practicing machin
 - [statology.org](https://www.statology.org/line-of-best-fit-python/)
 
 - [numpy.corrcoef](https://numpy.org/doc/stable/reference/generated/numpy.corrcoef.html)
+
+- [Histograms](https://www.w3schools.com/python/matplotlib_histograms.asp)
+

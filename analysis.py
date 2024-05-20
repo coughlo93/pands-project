@@ -35,6 +35,10 @@ df.dtypes
 df.describe()
 
 # Variable Plots
+
+# Two Variable Plots
+# In the context of the Iris dataset, creating two-variable plots can help you explore how the different measurements (e.g., sepal length vs. sepal width, petal length vs. petal width) vary across the different species of iris flowers.
+# This exploration is valuable for gaining insights into the dataset and informing subsequent analyses, such as classification or clustering tasks.
 # Get just petal length
 plen = df['petal_length']
 # Show
@@ -82,7 +86,8 @@ ax.set_xlim(0, 8)
 ax.set_ylim(0, 4)
 
 # Add a Best Fit Line
-
+# I added a best fit line to show how the variables relate to eachother.
+# By looking at the slope and direction of the line it shows if there is a positive or a negative correlation.
 # Define variables
 m = 2
 c = 3
@@ -142,6 +147,10 @@ np.corrcoef(plen, pwidth)
 
 ## Histograms
 
+# I decided it was key to use a histogram as I find it it is a very useful tool for visualising data spread & identifying patterns.
+# It is also key for comparing, cleaning and preparing datasets.
+# They are powerful tools for exploring and understanding the distribution of the data in the dataset.
+
 # Histograms
 
 # Variable Plots
@@ -163,3 +172,5 @@ plt.xlabel('Petal Width (cm)')
 plt.ylabel('Frequency')
 plt.title('Histogram of Petal Width')
 plt.show()
+
+# END
